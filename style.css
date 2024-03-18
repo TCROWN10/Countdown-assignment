@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/launch-countdown-timer-main/images/bg-stars.svg);
+    background-color: hsl(234, 17%, 12%);
+    /* margin: 5rem; */
+}
+.text-container{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 6rem;
+}
+.Divs-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    gap: 5rem;
+    
+}
+.numbers{
+    background: hsl(235, 16%, 14%);
+    color: hsl(345, 95%, 68%);
+    padding: 3rem;
+    
+}
+.span-container{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    /* padding-top: 10rem; */
+    gap: 10rem;
+}
+.socail-media img{
+    padding: 1rem;
+    position: relative;
+    top: 19rem;
+    left: 40rem;
+    transition-property: all;
+}
+.Hills-container{
+    position: relative;
+    top: 25rem;
+    /* left: 2rem; */
+    background-position: bottom;
+    
+}
